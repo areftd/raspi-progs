@@ -49,7 +49,7 @@ while True:
         while len(running_times) != 0:
             current_clock = datetime.now().isoformat()
             clock = get_clock(current_clock)
-            print(clock)
+            print(datetime.now().isoformat())
             if running_times[0] < clock:
                 running_times.pop(0)
             elif running_times[0] == clock:
