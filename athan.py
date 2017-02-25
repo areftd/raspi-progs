@@ -36,7 +36,7 @@ def get_times(path,file_name):
             dict_times[date] = [fa, th, asser, mog, isch]
     return dict_times
 
-path = '/home/pi/myprogs'
+path = '/home/pi/raspi-progs'
 f_name = 'gebetskalendar.csv'
 time_dict = get_times(path, f_name)
 count = 0
@@ -55,10 +55,10 @@ while True:
             elif running_times[0] == clock:
                 if len(running_times) == 4:
                     print(datetime.now().isoformat())
-                    os.system('mpg123 -f 70000 -o s /home/pi/Music/tathan.mp3')
+                    os.system('mpg123 -f 20000 -o s /home/pi/Music/tathan.mp3')
                 else:
                     print(datetime.now().isoformat())
-                    os.system('mpg123 -f 80000 -o s /home/pi/Music/tathan.mp3')
+                    os.system('mpg123 -f 30000 -o s /home/pi/Music/tathan.mp3')
                 # print('clock = {}'.format(clock))
                 running_times.pop(0)
             else:
