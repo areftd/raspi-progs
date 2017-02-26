@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc87f068-23fb-4465-abd8-4ba8383ff676" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/athan.py" afterPath="$PROJECT_DIR$/athan.py" />
     </list>
     <ignored path="raspi-progs.iws" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="athan.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/athan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+            <state relative-caret-position="402">
+              <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -155,8 +156,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/athan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        <state relative-caret-position="402">
+          <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
           <folding />
         </state>
       </provider>
