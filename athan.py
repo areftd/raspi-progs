@@ -40,7 +40,7 @@ path = '/home/pi/raspi-progs'
 f_name = 'gebetskalendar.csv'
 time_dict = get_times(path, f_name)
 count = 0
-with open(os.path.join(path, 'times.log'), 'aw') as ouf:
+with open(os.path.join(path, 'times.log'), 'a') as ouf:
     while True:
         t = datetime.now().isoformat()
         # print('t = {}'.format(t))
