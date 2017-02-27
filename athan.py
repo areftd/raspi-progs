@@ -57,11 +57,11 @@ while True:
                 if len(running_times) == 4:
                     with open(os.path.join(path, 'times.log'), 'a') as ouf:
                         ouf.write('athan time = ' +datetime.now().isoformat()+'\n')
-                    os.system('mpg123 -f 20000 -o s /home/pi/Music/tathan.mp3')
+                    os.system('mpg123 -f 15000 -o s /home/pi/Music/fajer.mp3')
                 else:
                     with open(os.path.join(path, 'times.log'), 'a') as ouf:
                         ouf.write('athan time = ' + datetime.now().isoformat()+'\n')
-                    os.system('mpg123 -f 30000 -o s /home/pi/Music/tathan.mp3')
+                    os.system('mpg123 -f 15000 -o s /home/pi/Music/tagsathan.mp3')
                 # print('clock = {}'.format(clock))
                 running_times.pop(0)
             else:
