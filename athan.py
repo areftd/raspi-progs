@@ -49,8 +49,8 @@ while True:
         while len(running_times) != 0:
             current_clock = datetime.now().isoformat()
             clock = get_clock(current_clock)
-            with open(os.path.join(path, 'times.log'), 'a') as ouf:
-                ouf.write(datetime.now().isoformat()+'\n')
+            #with open(os.path.join(path, 'times.log'), 'a') as ouf:
+             #   ouf.write(datetime.now().isoformat()+'\n')
             if running_times[0] < clock:
                 running_times.pop(0)
             elif running_times[0] == clock:
@@ -69,5 +69,5 @@ while True:
                 # print('sleep at ' + ss[11:19])
                 # print('length = {}'.format(len(running_times)))
                 sleep(15)
-    break
+    #break
 
