@@ -62,12 +62,14 @@ while True:
                     with open(os.path.join(path, 'times.log'), 'a') as ouf:
                         ouf.write('athan time = ' + datetime.now().isoformat()+'\n')
                     os.system('mpg123 -f 15000 -o s /home/pi/Music/tagsathan.mp3')
-                # print('clock = {}'.format(clock))
+                print('clock = {}'.format(clock))
                 running_times.pop(0)
             else:
                 ss = datetime.now().isoformat()
-                # print('sleep at ' + ss[11:19])
+                print('slept at ' + ss[11:19])
                 # print('length = {}'.format(len(running_times)))
                 sleep(15)
+    # clearing the list
+    running_times = []
     #break
 
